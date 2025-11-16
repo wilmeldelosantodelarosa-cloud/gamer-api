@@ -1,884 +1,180 @@
-[
-  {
-    "id": 1,
-    "title": "NVIDIA GeForce RTX 4090",
-    "category": "Tarjeta Gráfica",
-    "price": 1899.99,
-    "image": "https://www.techpowerup.com/review/nvidia-geforce-rtx-4090/images/card-front.jpg",
-    "description": "La GPU más poderosa del mercado, ideal para gaming 4K y creación de contenido."
-  },
-  {
-    "id": 2,
-    "title": "AMD Radeon RX 7900 XTX",
-    "category": "Tarjeta Gráfica",
-    "price": 1099.99,
-    "image": "https://www.techpowerup.com/review/amd-radeon-rx-7900-xtx/images/card-front.jpg",
-    "description": "Una tarjeta gráfica de última generación con excepcional rendimiento en 4K."
-  },
-  {
-    "id": 3,
-    "title": "Intel Core i9-14900K",
-    "category": "Procesador",
-    "price": 649.99,
-    "image": "https://www.intel.com/content/dam/www/central-libraries/us/en/images/processor-badge-i9.png",
-    "description": "CPU tope de gama para gaming competitivo y tareas intensivas."
-  },
-  {
-    "id": 4,
-    "title": "AMD Ryzen 9 7950X",
-    "category": "Procesador",
-    "price": 599.99,
-    "image": "https://www.amd.com/system/files/2022-09/1716789-rz7950x-pib-1260x709.png",
-    "description": "Procesador AM5 de 16 núcleos ideal para multitarea extrema."
-  },
-  {
-    "id": 5,
-    "title": "MSI MPG X670E Carbon WiFi",
-    "category": "Placa Base",
-    "price": 399.99,
-    "image": "https://asset.msi.com/resize/image/global/product/product_16626147979264ee54c.png",
-    "description": "Placa base premium para procesadores Ryzen serie 7000."
-  },
-  {
-    "id": 6,
-    "title": "ASUS ROG Strix B650E-F Gaming",
-    "category": "Placa Base",
-    "price": 329.99,
-    "image": "https://dlcdnwebimgs.asus.com/gain/631661F92F2C6F92AD9D02C7E075C533",
-    "description": "Placa base con PCIe 5.0 y WiFi 6E para setups modernos."
-  },
-  {
-    "id": 7,
-    "title": "Corsair Vengeance DDR5 32GB 6000MHz",
-    "category": "RAM",
-    "price": 169.99,
-    "image": "https://www.corsair.com/medias/sys_master/images/images/h3d/h90/9396002275358/main.png",
-    "description": "Memorias DDR5 de alto rendimiento ideales para gaming extremo."
-  },
-  {
-    "id": 8,
-    "title": "G.Skill Trident Z5 RGB 32GB 6400MHz",
-    "category": "RAM",
-    "price": 229.99,
-    "image": "https://www.gskill.com/_upload/images/Trident-Z5-RGB-Black.png",
-    "description": "RAM DDR5 premium con RGB y alta frecuencia para overclocking."
-  },
-  {
-    "id": 9,
-    "title": "Samsung Odyssey G7 32'' 240Hz",
-    "category": "Monitor",
-    "price": 699.99,
-    "image": "https://images.samsung.com/is/image/samsung/p6pim/lat/ls32bg750nlxzp/gallery/lat-odyssey-g7-32g75t-463820-ls32bg750nlxzp-532379999",
-    "description": "Monitor curvo QHD de alta velocidad ideal para eSports."
-  },
-  {
-    "id": 10,
-    "title": "LG UltraGear 27GP850-B 165Hz",
-    "category": "Monitor",
-    "price": 379.99,
-    "image": "https://www.lg.com/us/images/monitors/md07507640/gallery/medium01.jpg",
-    "description": "Monitor 1440p con Nano IPS y colores profesionales."
-  },
-
-  {
-    "id": 11,
-    "title": "NZXT Kraken Z73 RGB",
-    "category": "Refrigeración Líquida",
-    "price": 279.99,
-    "image": "https://nzxt.com/assets/cms/34299/1639689350-kraken-z73-rgb-black.png",
-    "description": "AIO de 360mm con pantalla LCD personalizable."
-  },
-  {
-    "id": 12,
-    "title": "Corsair iCUE H150i Elite",
-    "category": "Refrigeración Líquida",
-    "price": 249.99,
-    "image": "https://www.corsair.com/medias/sys_master/productcontent/productcontent/h3b/h8b/9582728321054/H150i-Elite-Capellix.png",
-    "description": "AIO de alto rendimiento con RGB dinámico."
-  },
-  {
-    "id": 13,
-    "title": "EVGA SuperNova 1000 G5",
-    "category": "Fuente de Alimentación",
-    "price": 199.99,
-    "image": "https://www.evga.com/products/images/gallery/220-G5-1000-X1_LG_3.png",
-    "description": "Fuente 1000W 80+ Gold totalmente modular."
-  },
-  {
-    "id": 14,
-    "title": "Corsair RM850x 80+ Gold",
-    "category": "Fuente de Alimentación",
-    "price": 159.99,
-    "image": "https://www.corsair.com/medias/sys_master/images/images/haa/h40/9512962639902/CP-9020200-NA-Gallery-RM850x-01.png",
-    "description": "Fuente confiable con excelente eficiencia y bajo ruido."
-  },
-  
-  {
-    "id": 15,
-    "title": "NZXT H710i Smart Case",
-    "category": "Case",
-    "price": 199.99,
-    "image": "https://nzxt.com/assets/cms/34299/1581348276-h710i-matte-white-gallery-01.png",
-    "description": "Case premium con vidrio templado y gestión inteligente de cables."
-  },
-  {
-    "id": 16,
-    "title": "Lian Li O11 Dynamic Evo",
-    "category": "Case",
-    "price": 169.99,
-    "image": "https://lian-li.com/wp-content/uploads/2022/01/O11DEW-1.png",
-    "description": "Uno de los cases más populares para setups con refrigeración líquida."
-  },
-  
-  {
-    "id": 17,
-    "title": "Xbox Elite Wireless Controller Series 2",
-    "category": "Controlador",
-    "price": 179.99,
-    "image": "https://compass-ssl.xbox.com/assets/9b/c4/9bc4bbe1-067d-44eb-a5bb-04197e7faab0.jpg",
-    "description": "Mando profesional con piezas intercambiables."
-  },
-  {
-    "id": 18,
-    "title": "Logitech G29 Racing Wheel",
-    "category": "Controlador",
-    "price": 299.99,
-    "image": "https://resource.logitechg.com/w_1200,h_1200,c_limit,q_auto:best,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g29/g29-gallery-1.png",
-    "description": "Volante con force feedback ideal para simulación."
-  },
-
-  {
-    "id": 19,
-    "title": "HyperX Cloud III Wireless",
-    "category": "Audífonos",
-    "price": 169.99,
-    "image": "https://hyperx.com/cdn/shop/products/hx-product-headset-cloud3-wireless-1-lg.png",
-    "description": "Audífonos inalámbricos de alta calidad con sonido envolvente."
-  },
-  {
-    "id": 20,
-    "title": "SteelSeries Arctis Nova Pro",
-    "category": "Audífonos",
-    "price": 329.99,
-    "image": "https://media.steelseriescdn.com/thumbs/catalog/items/61527/ae0bbf6370.png",
-    "description": "Headset premium con DAC incluido y sonido Hi-Fi."
-  },
-
-  {
-    "id": 21,
-    "title": "AMD Ryzen 7 7800X3D",
-    "category": "Procesador",
-    "price": 449.99,
-    "image": "https://www.amd.com/system/files/2023-04/963480-ryzen-7000-series-1260x709.png",
-    "description": "El mejor procesador para gaming gracias a su 3D V-Cache."
-  },
-  {
-    "id": 22,
-    "title": "Intel Core i7-14700K",
-    "category": "Procesador",
-    "price": 449.99,
-    "image": "https://www.intel.com/content/dam/www/central-libraries/us/en/images/processor-badge-i7.png",
-    "description": "Procesador híbrido con excelente rendimiento para juegos."
-  },
-
-  {
-    "id": 23,
-    "title": "MSI RTX 4080 Super Gaming X Trio",
-    "category": "Tarjeta Gráfica",
-    "price": 1299.99,
-    "image": "https://asset.msi.com/resize/image/global/product/product_1705410951775ef5a790.png",
-    "description": "GPU de alta gama con gran rendimiento por watt."
-  },
-
-  {
-    "id": 24,
-    "title": "ASUS TUF Gaming RTX 4070 Ti Super",
-    "category": "Tarjeta Gráfica",
-    "price": 899.99,
-    "image": "https://dlcdnwebimgs.asus.com/gain/38E1A44A1FD630DAEE1B39EC19F56C63",
-    "description": "Excelente tarjeta de gama alta para gaming 1440p."
-  },
-
-  {
-    "id": 25,
-    "title": "Logitech G Pro X Superlight 2",
-    "category": "Mouse",
-    "price": 159.99,
-    "image": "https://resource.logitechg.com/w_1200,h_1200,c_limit,q_auto:best,f_auto/d_transparent.gif/content/dam/gaming/en/products/pro-x-superlight-2/gallery/pro-x-superlight-2-white-gallery-1.png",
-    "description": "Ratón ultraligero usado por profesionales de eSports."
-  },
-
-  {
-    "id": 26,
-    "title": "Razer Basilisk V3 Pro",
-    "category": "Mouse",
-    "price": 169.99,
-    "image": "https://assets2.razerzone.com/images/pnx.assets/648e9171cce7bcd3f17b9a4e7c105c5e/basilisk-v3-pro-500x500.png",
-    "description": "Mouse personalizable con rueda háptica y sensor de 30K DPI."
-  },
-
-  {
-    "id": 27,
-    "title": "Razer BlackWidow V4 Pro",
-    "category": "Teclado",
-    "price": 249.99,
-    "image": "https://assets2.razerzone.com/images/pnx.assets/648e8f69e2d0ddd35ce1f07f3f645dd5/blackwidow-v4-pro-500x500.png",
-    "description": "Teclado mecánico premium con switches Razer Green."
-  },
-
-  {
-    "id": 28,
-    "title": "SteelSeries Apex Pro TKL",
-    "category": "Teclado",
-    "price": 219.99,
-    "image": "https://media.steelseriescdn.com/thumbs/catalog/items/64739/9b44b0df8b.png",
-    "description": "Teclado con switches ajustables y pantalla OLED."
-  },
-
-  {
-    "id": 29,
-    "title": "AOC CU34G2X Curved 34'' 144Hz",
-    "category": "Monitor",
-    "price": 449.99,
-    "image": "https://aoc.com/media/catalog/product/c/u/cu34g2x.png",
-    "description": "Monitor ultra ancho ideal para multitarea y gaming."
-  },
-
-  {
-    "id": 30,
-    "title": "Gigabyte M32U 4K 144Hz",
-    "category": "Monitor",
-    "price": 749.99,
-    "image": "https://static.gigabyte.com/StaticFile/Image/Global/13893cc3a716708d20f0b1eefd7a6135/Product/29215/png",
-    "description": "Monitor 4K rápido ideal para consolas y PC."
-  },
-
-  {
-    "id": 31,
-    "title": "Cooler Master Hyper 212 Halo",
-    "category": "Refrigeración",
-    "price": 59.99,
-    "image": "https://www.coolermaster.com/catalog/products/cooling/cpu-air-cooler/hyper-212-halo-white/images/hyper-212-halo-white.png",
-    "description": "Disipador económico con excelente relación calidad-precio."
-  },
-
-  {
-    "id": 32,
-    "title": "Noctua NH-D15 Chromax Black",
-    "category": "Refrigeración",
-    "price": 119.99,
-    "image": "https://noctua.at/pub/media/catalog/product/cache/7d8bf2e78b98ad7a4b2b69c8f7c739f3/n/h/nh-d15-chromax-black_1.png",
-    "description": "Uno de los mejores disipadores por aire jamás creados."
-  },
-
-  {
-    "id": 33,
-    "title": "ASUS ROG Thor 1200W Platinum II",
-    "category": "Fuente de Alimentación",
-    "price": 449.99,
-    "image": "https://dlcdnwebimgs.asus.com/gain/0B0F3BB7BCB381687C7AE1C7C0654BB1",
-    "description": "Fuente ultra premium con pantalla OLED."
-  },
-
-  {
-    "id": 34,
-    "title": "Be Quiet! Dark Power 13 1000W",
-    "category": "Fuente de Alimentación",
-    "price": 289.99,
-    "image": "https://www.bequiet.com/typo3temp/assets/_processed_/1/7/csm_BP13_1000W_01_761cb836bb.png",
-    "description": "Fuente silenciosa con certificación 80+ Titanium."
-  },
-
-  {
-    "id": 35,
-    "title": "Phanteks NV7 Case",
-    "category": "Case",
-    "price": 249.99,
-    "image": "https://phanteks.com/assets/images/cases/NV7/Black/NV7-Black-01.png",
-    "description": "Case gigante pensado para exhibir componentes de gama alta."
-  },
-
-  {
-    "id": 36,
-    "title": "Fractal Design North",
-    "category": "Case",
-    "price": 159.99,
-    "image": "https://www.fractal-design.com/app/uploads/2022/12/north-charcoal-black-hero-1.png",
-    "description": "Case elegante con panel frontal de madera real."
-  },
-
-  {
-    "id": 37,
-    "title": "Thrustmaster T.16000M FCS",
-    "category": "Controlador",
-    "price": 89.99,
-    "image": "https://www.thrustmaster.com/wp-content/uploads/2021/10/T16000M-FCS.png",
-    "description": "Joystick ideal para juegos de aviación."
-  },
-
-  {
-    "id": 38,
-    "title": "Razer Wolverine V2 Pro",
-    "category": "Controlador",
-    "price": 249.99,
-    "image": "https://assets2.razerzone.com/images/pnx.assets/6495c3a5360d40df85193c7781bf13df/wolverine-v2-pro-white-500x500.png",
-    "description": "Control inalámbrico premium para PC y PS5."
-  },
-
-  {
-    "id": 39,
-    "title": "Logitech G533 Wireless Headset",
-    "category": "Audífonos",
-    "price": 119.99,
-    "image": "https://resource.logitechg.com/w_1200,h_1200,c_limit,q_auto:best,f_auto/d_transparent.gif/content/dam/gaming/en/products/g533/g533-gallery-1.png",
-    "description": "Headset inalámbrico con sonido 7.1."
-  },
-
-  {
-    "id": 40,
-    "title": "Razer Kraken V3 HyperSense",
-    "category": "Audífonos",
-    "price": 129.99,
-    "image": "https://assets2.razerzone.com/images/pnx.assets/62605a4be8530eeeccd7c10a3d75bd7f/kraken-v3-hypersense-500x500.png",
-    "description": "Audífonos con vibración háptica inmersiva."
-  },
-
-  {
-    "id": 41,
-    "title": "ADATA XPG Lancer DDR5 RGB 32GB",
-    "category": "RAM",
-    "price": 179.99,
-    "image": "https://www.xpg.com/us/data/upload/image/product/LANCER_RGB/Lancer_RGB_Black.png",
-    "description": "RAM DDR5 con diseño gamer y alta frecuencia."
-  },
-
-  {
-    "id": 42,
-    "title": "Kingston Fury Beast DDR5 32GB",
-    "category": "RAM",
-    "price": 149.99,
-    "image": "https://www.kingston.com/dam/kmc/products/fury/Beast-DDR5-KF556C40BBK2-32-1-lg.png",
-    "description": "RAM económica de última generación."
-  },
-
-  {
-    "id": 43,
-    "title": "Samsung 990 Pro 2TB NVMe",
-    "category": "Almacenamiento",
-    "price": 199.99,
-    "image": "https://images.samsung.com/is/image/samsung/p6pim/uk/mz-v9p2t0bw/gallery/uk-990-pro-521688-mz-v9p2t0bw-536132998",
-    "description": "SSD extremadamente rápido para gaming y cargas pesadas."
-  },
-
-  {
-    "id": 44,
-    "title": "WD Black SN850X 2TB",
-    "category": "Almacenamiento",
-    "price": 179.99,
-    "image": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-drives/wd-black-sn850x-ssd/gallery/wd-black-sn850x-ssd-2tb.png",
-    "description": "Uno de los mejores SSD PCIe 4.0 del mercado."
-  },
-
-  {
-    "id": 45,
-    "title": "Razer Seiren V2 Pro",
-    "category": "Micrófono",
-    "price": 149.99,
-    "image": "https://assets2.razerzone.com/images/pnx.assets/b6d157b8dd43259f554ca9ccab696648/seiren-v2-pro.png",
-    "description": "Micrófono profesional para streaming."
-  },
-
-  {
-    "id": 46,
-    "title": "Blue Yeti X",
-    "category": "Micrófono",
-    "price": 169.99,
-    "image": "https://www.bluedesigns.com/wp-content/uploads/2020/06/yeti-x-blackout.png",
-    "description": "El micrófono USB más popular entre creadores."
-  },
-
-  {
-    "id": 47,
-    "title": "Elgato Stream Deck MK2",
-    "category": "Streaming",
-    "price": 149.99,
-    "image": "https://edge.elgato.com/media/cms/edge/products/stream-deck-mk2/gl/product-streamdeck-mk2-black.png",
-    "description": "Panel de control para streamers."
-  },
-
-  {
-    "id": 48,
-    "title": "Elgato Facecam",
-    "category": "Streaming",
-    "price": 129.99,
-    "image": "https://edge.elgato.com/media/cms/edge/products/facecam/gl/facecam.png",
-    "description": "Cámara Full HD diseñada para creadores."
-  },
-
-  {
-    "id": 49,
-    "title": "Razer Huntsman Mini 60%",
-    "category": "Teclado",
-    "price": 119.99,
-    "image": "https://assets2.razerzone.com/images/pnx.assets/5f3fc280b2dd2f4a/razer-huntsman-mini-black-500x500.png",
-    "description": "Teclado compacto para gamers competitivos."
-  },
-  {
-    "id": 50,
-    "title": "Corsair K100 RGB",
-    "category": "Teclado",
-    "price": 229.99,
-    "image": "https://www.corsair.com/medias/sys_master/images/images/h80/hc9/9459307354142/CH-912A014-NA-Gallery-K100-RGB-01.png",
-    "description": "Teclado premium con switches OPX y extra de macros."
-  },
-
-  {
-    "id": 51,
-    "title": "ASUS ROG Strix Scope NX",
-    "category": "Teclado",
-    "price": 139.99,
-    "image": "https://dlcdnwebimgs.asus.com/gain/6CEB6E1AC06359811174548EE3B1008E",
-    "description": "Teclado mecánico pensado para FPS."
-  },
-
-  {
-    "id": 52,
-    "title": "Razer DeathAdder V3 Pro",
-    "category": "Mouse",
-    "price": 169.99,
-    "image": "https://assets2.razerzone.com/images/pnx.assets/63e3d736609eace35cf1aaba3a099035/pnx.razer.com-store-catalog-products-deathadder-v3-pro-black-01.png",
-    "description": "Mouse ultra ligero con forma ergonómica clásica."
-  },
-
-  {
-    "id": 53,
-    "title": "Logitech G903 Lightspeed",
-    "category": "Mouse",
-    "price": 129.99,
-    "image": "https://resource.logitechg.com/content/dam/gaming/en/products/g903/g903-gallery-1.png",
-    "description": "Mouse inalámbrico ambidiestro con sensor HERO 25K."
-  },
-
-  {
-    "id": 54,
-    "title": "Cooler Master CK720",
-    "category": "Teclado",
-    "price": 99.99,
-    "image": "https://www.coolermaster.com/catalog/products/keyboards/ck720/images/ck720-halo-white-1.png",
-    "description": "Teclado hot-swap económico y de gran calidad."
-  },
-
-  {
-    "id": 55,
-    "title": "Samsung CRG9 49'' Super Ultrawide",
-    "category": "Monitor",
-    "price": 1199.99,
-    "image": "https://images.samsung.com/is/image/samsung/p6pim/za/49crg90ssr/gallery/za-c49rg90-lc49rg90ssrxen-530534381",
-    "description": "Monitor súper panorámico para máxima inmersión."
-  },
-
-  {
-    "id": 56,
-    "title": "ASUS ROG Swift PG42UQ OLED",
-    "category": "Monitor",
-    "price": 1499.99,
-    "image": "https://dlcdnwebimgs.asus.com/gain/567322629C7285C07CE85ADB2976E6AF",
-    "description": "Monitor OLED 4K para la mejor calidad visual en gaming."
-  },
-
-  {
-    "id": 57,
-    "title": "MSI MPG A1000G PCIe 5.0",
-    "category": "Fuente de Alimentación",
-    "price": 229.99,
-    "image": "https://asset.msi.com/resize/image/global/product/product_16621061609046fd08d.png",
-    "description": "Fuente lista para GPUs RTX 4000."
-  },
-
-  {
-    "id": 58,
-    "title": "Gigabyte UD850GM PG5",
-    "category": "Fuente de Alimentación",
-    "price": 159.99,
-    "image": "https://static.gigabyte.com/StaticFile/Image/Global/2f661d7d0b0758c005aac585bbdbf83b/Product/30287/png",
-    "description": "Fuente compatible con 12VHPWR."
-  },
-
-  {
-    "id": 59,
-    "title": "Logitech G Pro X Headset",
-    "category": "Audífonos",
-    "price": 129.99,
-    "image": "https://resource.logitechg.com/dam/gaming/en/products/pro-x-gaming-headset/pro-x-hero.png",
-    "description": "Audífonos con micrófono Blue VO!CE."
-  },
-
-  {
-    "id": 60,
-    "title": "HyperX QuadCast S",
-    "category": "Micrófono",
-    "price": 149.99,
-    "image": "https://hyperx.com/cdn/shop/products/hx-product-microphone-quadcast-s-black-1-lg.png",
-    "description": "Micrófono con RGB integrado para streamers."
-  },
-
-  {
-    "id": 61,
-    "title": "Streamplify Mic Pro",
-    "category": "Micrófono",
-    "price": 79.99,
-    "image": "https://assets.reviews.io/product_image/sku/STM-MIC-PRO/1619731919.png",
-    "description": "Micrófono económico con alta calidad."
-  },
-
-  {
-    "id": 62,
-    "title": "Elgato Key Light",
-    "category": "Streaming",
-    "price": 199.99,
-    "image": "https://edge.elgato.com/media/cms/edge/products/key-light/gl/key-light.png",
-    "description": "Iluminación profesional para creadores de contenido."
-  },
-
-  {
-    "id": 63,
-    "title": "Razer Kiyo Pro",
-    "category": "Cámara",
-    "price": 199.99,
-    "image": "https://assets2.razerzone.com/images/pnx.assets/d1790dcb6e2c4603bdbab9a9a56dd97c/razer-kiyo-pro-500x500.png",
-    "description": "Cámara Full HD HDR con excelente calidad."
-  },
-
-  {
-    "id": 64,
-    "title": "AverMedia PW315",
-    "category": "Cámara",
-    "price": 109.99,
-    "image": "https://www.avermedia.com/images/product/Product_PW315_1.png",
-    "description": "Cámara con 60 FPS ideal para streaming."
-  },
-
-  {
-    "id": 65,
-    "title": "Razer Enki Gaming Chair",
-    "category": "Accesorio",
-    "price": 399.99,
-    "image": "https://assets2.razerzone.com/images/pnx.assets/527675c92d4d3e9e6b9439e6a811203c/razer-enki-black-500x500.png",
-    "description": "Silla gamer ergonómica."
-  },
-
-  {
-    "id": 66,
-    "title": "Secretlab Titan Evo 2023",
-    "category": "Accesorio",
-    "price": 549.99,
-    "image": "https://cdn.shopify.com/s/files/1/0283/1339/9075/products/Titan_Evo_2022_Black3.png",
-    "description": "La silla gamer más recomendada del mercado."
-  },
-
-  {
-    "id": 67,
-    "title": "ASUS ROG Strix LC II 360",
-    "category": "Refrigeración Líquida",
-    "price": 199.99,
-    "image": "https://dlcdnwebimgs.asus.com/gain/8C07F3A3EA84BDF1E1EEC06B44458DEB",
-    "description": "AIO de alto rendimiento con diseño gamer."
-  },
-
-  {
-    "id": 68,
-    "title": "MSI CoreLiquid P360",
-    "category": "Refrigeración Líquida",
-    "price": 149.99,
-    "image": "https://asset.msi.com/resize/image/global/product/product_1670578952f4a312834.png",
-    "description": "AIO con excelente relación calidad-precio."
-  },
-
-  {
-    "id": 69,
-    "title": "Corsair 5000D Airflow",
-    "category": "Case",
-    "price": 174.99,
-    "image": "https://www.corsair.com/medias/sys_master/images/images/h49/hc4/9540694437918/CC-9011219-WW-Gallery-5000D-AIRFLOW-01.png",
-    "description": "Case con máximo flujo de aire."
-  },
-
-  {
-    "id": 70,
-    "title": "Cooler Master TD500 Mesh V2",
-    "category": "Case",
-    "price": 129.99,
-    "image": "https://www.coolermaster.com/catalog/products/cases/td500-mesh-v2/images/td500-mesh-v2-white.png",
-    "description": "Case económico con gran ventilación."
-  },
-
-  {
-    "id": 71,
-    "title": "Seagate FireCuda 530 2TB",
-    "category": "Almacenamiento",
-    "price": 199.99,
-    "image": "https://www.seagate.com/www-content/product-content/firecuda-gaming/fc-530-ssd/_shared/images/firecuda530-ssd-hero-1600x1600.png",
-    "description": "SSD PCIe Gen4 con velocidades extremas."
-  },
-
-  {
-    "id": 72,
-    "title": "Crucial P5 Plus 1TB",
-    "category": "Almacenamiento",
-    "price": 89.99,
-    "image": "https://content.crucial.com/content/dam/crucial/ssd-products/p5-plus/gallery/p5-plus-ssd-front.png",
-    "description": "SSD rápido para instalaciones modernas."
-  },
-
-  {
-    "id": 73,
-    "title": "ASUS ROG Fusion II 500",
-    "category": "Audífonos",
-    "price": 179.99,
-    "image": "https://dlcdnwebimgs.asus.com/gain/1D3FF3BC756DFAAA51B9E80FF434D481",
-    "description": "Audífonos con sonido espacial."
-  },
-
-  {
-    "id": 74,
-    "title": "HyperX Cloud Alpha Wireless",
-    "category": "Audífonos",
-    "price": 199.99,
-    "image": "https://hyperx.com/cdn/shop/products/hx-product-headset-cloud-alpha-wireless-black-1-lg.png",
-    "description": "Headset con batería de hasta 300 horas."
-  },
-
-  {
-    "id": 75,
-    "title": "Logitech G815 Lightsync",
-    "category": "Teclado",
-    "price": 199.99,
-    "image": "https://resource.logitechg.com/dam/gaming/en/products/g815/g815-gallery-3.png",
-    "description": "Teclado mecánico low-profile con RGB."
-  },
-
-  {
-    "id": 76,
-    "title": "AOC 25G3ZM 240Hz",
-    "category": "Monitor",
-    "price": 199.99,
-    "image": "https://aoc.com/media/catalog/product/2/5/25g3zm.png",
-    "description": "Monitor económico para eSports competitivos."
-  },
-
-  {
-    "id": 77,
-    "title": "MSI Optix MAG342CQR",
-    "category": "Monitor",
-    "price": 499.99,
-    "image": "https://asset.msi.com/resize/image/global/product/product_1628221080450e8d1f7.png",
-    "description": "Monitor curvo ultra ancho para máxima inmersión."
-  },
-
-  {
-    "id": 78,
-    "title": "Razer Leviathan V2",
-    "category": "Audio",
-    "price": 249.99,
-    "image": "https://assets2.razerzone.com/images/pnx.assets/6234e474a6ecc6c4e3bb266242a8bae7/razer-leviathan-v2-500x500.png",
-    "description": "Soundbar con subwoofer para gamers."
-  },
-
-  {
-    "id": 79,
-    "title": "Logitech Z906 5.1",
-    "category": "Audio",
-    "price": 299.99,
-    "image": "https://resource.logitechg.com/dam/gaming/en/products/z906/z906-gallery-1.png",
-    "description": "Sistema de sonido 5.1 certificado THX."
-  },
-
-  {
-    "id": 80,
-    "title": "NVIDIA RTX 4060 Ti 16GB",
-    "category": "Tarjeta Gráfica",
-    "price": 499.99,
-    "image": "https://www.techpowerup.com/review/nvidia-geforce-rtx-4060-ti/images/card-front.jpg",
-    "description": "GPU eficiente para 1080p y 1440p."
-  },
-
-  {
-    "id": 81,
-    "title": "AMD Radeon RX 7800 XT",
-    "category": "Tarjeta Gráfica",
-    "price": 549.99,
-    "image": "https://www.techpowerup.com/review/amd-radeon-rx-7800-xt/images/card-front.jpg",
-    "description": "Tarjeta de gama media-alta excelente para 1440p."
-  },
-
-  {
-    "id": 82,
-    "title": "Intel Arc A770 16GB",
-    "category": "Tarjeta Gráfica",
-    "price": 349.99,
-    "image": "https://www.techpowerup.com/review/intel-arc-a770/images/card1.jpg",
-    "description": "Una alternativa moderna con buen rendimiento por precio."
-  },
-
-  {
-    "id": 83,
-    "title": "ASUS ROG Delta S Wireless",
-    "category": "Audífonos",
-    "price": 199.99,
-    "image": "https://dlcdnwebimgs.asus.com/gain/62EAD126C70C993B6FB18F400CCD4D0E",
-    "description": "Headset inalámbrico con alta calidad de sonido."
-  },
-
-  {
-    "id": 84,
-    "title": "Glorious Model O Wireless",
-    "category": "Mouse",
-    "price": 99.99,
-    "image": "https://gloriousgaming.com/cdn/shop/products/Model-O-Wireless-Matte-White-TopPerspective.png",
-    "description": "Mouse ligero para FPS competitivos."
-  },
-
-  {
-    "id": 85,
-    "title": "Corsair Scimitar RGB Elite",
-    "category": "Mouse",
-    "price": 79.99,
-    "image": "https://www.corsair.com/medias/sys_master/images/images/hfb/h3b/9918179403806/CH-9304211-NA-Gallery-Scimitar-RGB-Elite-01.png",
-    "description": "Mouse con pad lateral para MMO."
-  },
-
-  {
-    "id": 86,
-    "title": "Razer Naga Trinity",
-    "category": "Mouse",
-    "price": 99.99,
-    "image": "https://assets2.razerzone.com/images/pnx.assets/1d7aff341bc4612123ae59eaeed84e81/razer-naga-trinity-500x500.png",
-    "description": "Mouse modular para múltiples géneros."
-  },
-
-  {
-    "id": 87,
-    "title": "ASUS ROG Strix Flare II",
-    "category": "Teclado",
-    "price": 179.99,
-    "image": "https://dlcdnwebimgs.asus.com/gain/EAE70D9382AF92D699C3F4613CC83872",
-    "description": "Teclado mecánico con reposamuñecas RGB."
-  },
-
-  {
-    "id": 88,
-    "title": "Razer Viper V3 Hyperspeed",
-    "category": "Mouse",
-    "price": 69.99,
-    "image": "https://assets2.razerzone.com/images/pnx.assets/65a8c41a23dbe97458a5af89f987dd5d/razer-viper-v3-hyperspeed-hero.png",
-    "description": "Mouse ligero ideal para FPS."
-  },
-
-  {
-    "id": 89,
-    "title": "Corsair Virtuoso RGB XT",
-    "category": "Audífonos",
-    "price": 189.99,
-    "image": "https://www.corsair.com/medias/sys_master/images/images/hef/h5d/9918064502814/CA-9011195-NA-Gallery-Virtuoso-RGB-XT-01.png",
-    "description": "Audífonos inalámbricos premium."
-  },
-
-  {
-    "id": 90,
-    "title": "Razer BlackShark V2 Pro",
-    "category": "Audífonos",
-    "price": 199.99,
-    "image": "https://assets2.razerzone.com/images/pnx.assets/bec3e6a299d7e6472df3c2c5dcadfa20/blackshark-v2-pro-2023-white-500x500.png",
-    "description": "Headset competitivo usado por equipos eSports."
-  },
-
-  {
-    "id": 91,
-    "title": "Elgato Cam Link 4K",
-    "category": "Streaming",
-    "price": 129.99,
-    "image": "https://edge.elgato.com/media/cms/edge/products/cam-link-4k/main/camlink4k.png",
-    "description": "Capturadora compacta para cámaras DSLR."
-  },
-
-  {
-    "id": 92,
-    "title": "ASUS TUF Gaming Capture Box CU4K30",
-    "category": "Streaming",
-    "price": 229.99,
-    "image": "https://dlcdnwebimgs.asus.com/gain/C4AEB64E3605A883488A77F87436C2F2",
-    "description": "Capturadora 4K a 30 FPS."
-  },
-
-  {
-    "id": 93,
-    "title": "NZXT Function TKL",
-    "category": "Teclado",
-    "price": 129.99,
-    "image": "https://nzxt.com/assets/cms/34299/1651784880-function-tkl-hero-black.png",
-    "description": "Teclado hot-swap con software CAM."
-  },
-
-  {
-    "id": 94,
-    "title": "Glorious GMMK Pro",
-    "category": "Teclado",
-    "price": 169.99,
-    "image": "https://gloriousgaming.com/cdn/shop/products/GMMK-PRO-USA-ANATOMY.png",
-    "description": "Teclado premium muy popular en la comunidad custom."
-  },
-
-  {
-    "id": 95,
-    "title": "Canon EOS M200",
-    "category": "Cámara",
-    "price": 499.99,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Canon_EOS_M200.png",
-    "description": "Cámara mirrorless ideal para streaming."
-  },
-
-  {
-    "id": 96,
-    "title": "Sony ZV-1",
-    "category": "Cámara",
-    "price": 699.99,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Sony_ZV-1.png",
-    "description": "Una cámara compacta para creadores."
-  },
-
-  {
-    "id": 97,
-    "title": "ASUS ROG STRIX Scope RX EVA-02 Edition",
-    "category": "Teclado",
-    "price": 249.99,
-    "image": "https://dlcdnwebimgs.asus.com/gain/8A06AC28E915D93C592BBB4E7572A0F5",
-    "description": "Edición especial del teclado ROG Strix."
-  },
-
-  {
-    "id": 98,
-    "title": "Razer Orochi V2",
-    "category": "Mouse",
-    "price": 49.99,
-    "image": "https://assets2.razerzone.com/images/pnx.assets/097c71510f3f515f0414673d60c587a8/orochi-v2-black-500x500.png",
-    "description": "Mouse portátil ideal para laptops gamer."
-  },
-
-  {
-    "id": 99,
-    "title": "Logitech MX Master 3S",
-    "category": "Mouse",
-    "price": 99.99,
-    "image": "https://resource.logitechg.com/dam/logitech/en/products/mx-master-3s/mx-master-3s-hero-graphite.png",
-    "description": "Mouse profesional ideal para creadores."
-  },
-
-  {
-    "id": 100,
-    "title": "ASUS ROG Chakram X",
-    "category": "Mouse",
-    "price": 159.99,
-    "image": "https://dlcdnwebimgs.asus.com/gain/F2D2388322D2A5B3726A2E2E664FDC54",
-    "description": "Mouse inalámbrico personalizable con joystick integrado."
-  }
-]
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "NVIDIA GeForce RTX 4090",
+      "category": "Tarjeta Gráfica",
+      "price": 1899.99,
+      "image": "https://i.imgur.com/TNHuVrV.jpeg",
+      "description": "La GPU más poderosa del mercado, ideal para gaming 4K y creación de contenido."
+    },
+    {
+      "id": 2,
+      "title": "AMD Radeon RX 7900 XTX",
+      "category": "Tarjeta Gráfica",
+      "price": 1099.99,
+      "image": "https://i.imgur.com/NFQEozd.jpeg",
+      "description": "Una tarjeta gráfica de última generación con excepcional rendimiento en 4K."
+    },
+    {
+      "id": 3,
+      "title": "Intel Core i9-14900K",
+      "category": "Procesador",
+      "price": 649.99,
+      "image": "https://i.imgur.com/CG7sOUC.png",
+      "description": "CPU tope de gama para gaming competitivo y tareas intensivas."
+    },
+    {
+      "id": 4,
+      "title": "AMD Ryzen 9 7950X",
+      "category": "Procesador",
+      "price": 599.99,
+      "image": "https://i.imgur.com/QxTFchJ.png",
+      "description": "Procesador AM5 de 16 núcleos ideal para multitarea extrema."
+    },
+    {
+      "id": 5,
+      "title": "MSI MPG X670E Carbon WiFi",
+      "category": "Placa Base",
+      "price": 399.99,
+      "image": "https://i.imgur.com/0SDk90E.png",
+      "description": "Placa base premium para procesadores Ryzen serie 7000."
+    },
+    {
+      "id": 6,
+      "title": "ASUS ROG Strix B650E-F Gaming",
+      "category": "Placa Base",
+      "price": 329.99,
+      "image": "https://i.imgur.com/5NM0w3Z.jpeg",
+      "description": "Placa base con PCIe 5.0 y WiFi 6E para setups modernos."
+    },
+    {
+      "id": 7,
+      "title": "Corsair Vengeance DDR5 32GB 6000MHz",
+      "category": "RAM",
+      "price": 169.99,
+      "image": "https://i.imgur.com/S2mwKUV.png",
+      "description": "Memorias DDR5 de alto rendimiento ideales para gaming extremo."
+    },
+    {
+      "id": 8,
+      "title": "G.Skill Trident Z5 RGB 32GB 6400MHz",
+      "category": "RAM",
+      "price": 229.99,
+      "image": "https://i.imgur.com/PTyFMA7.png",
+      "description": "RAM DDR5 premium con RGB y alta frecuencia para overclocking."
+    },
+    {
+      "id": 9,
+      "title": "Samsung Odyssey G7 32'' 240Hz",
+      "category": "Monitor",
+      "price": 699.99,
+      "image": "https://i.imgur.com/s6sYXlx.jpeg",
+      "description": "Monitor curvo QHD de alta velocidad ideal para eSports."
+    },
+    {
+      "id": 10,
+      "title": "LG UltraGear 27GP850-B 165Hz",
+      "category": "Monitor",
+      "price": 379.99,
+      "image": "https://i.imgur.com/3X1CIeR.jpeg",
+      "description": "Monitor 1440p con Nano IPS y colores profesionales."
+    },
+    {
+      "id": 11,
+      "title": "NZXT Kraken Z73 RGB",
+      "category": "Refrigeración Líquida",
+      "price": 279.99,
+      "image": "https://i.imgur.com/s0UpibT.png",
+      "description": "AIO de 360mm con pantalla LCD personalizable."
+    },
+    {
+      "id": 13,
+      "title": "EVGA SuperNova 1000 G5",
+      "category": "Fuente de Alimentación",
+      "price": 199.99,
+      "image": "https://i.imgur.com/jX9mu9l.png",
+      "description": "Fuente 1000W 80+ Gold totalmente modular."
+    },
+    {
+      "id": 15,
+      "title": "NZXT H710i Smart Case",
+      "category": "Case",
+      "price": 199.99,
+      "image": "https://i.imgur.com/tCSZKm4.png",
+      "description": "Case premium con vidrio templado y gestión inteligente de cables."
+    },
+    {
+      "id": 17,
+      "title": "Xbox Elite Wireless Controller Series 2",
+      "category": "Controlador",
+      "price": 179.99,
+      "image": "https://i.imgur.com/HWOOTx4.jpeg",
+      "description": "Mando profesional con piezas intercambiables."
+    },
+    {
+      "id": 19,
+      "title": "HyperX Cloud III Wireless",
+      "category": "Audífonos",
+      "price": 169.99,
+      "image": "https://i.imgur.com/gkdebiN.png",
+      "description": "Audífonos inalámbricos de alta calidad con sonido envolvente."
+    },
+    {
+      "id": 23,
+      "title": "MSI RTX 4080 Super Gaming X Trio",
+      "category": "Tarjeta Gráfica",
+      "price": 1299.99,
+      "image": "https://i.imgur.com/p6JLWRR.png",
+      "description": "GPU de alta gama con gran rendimiento por watt."
+    },
+    {
+      "id": 26,
+      "title": "Razer Basilisk V3 Pro",
+      "category": "Mouse",
+      "price": 169.99,
+      "image": "https://i.imgur.com/3u9KVk2.png",
+      "description": "Mouse personalizable con rueda háptica y sensor de 30K DPI."
+    },
+    {
+      "id": 28,
+      "title": "SteelSeries Apex Pro TKL",
+      "category": "Teclado",
+      "price": 219.99,
+      "image": "https://i.imgur.com/jjfXSDh.png",
+      "description": "Teclado con switches ajustables y pantalla OLED."
+    },
+    {
+      "id": 29,
+      "title": "AOC CU34G2X Curved 34'' 144Hz",
+      "category": "Monitor",
+      "price": 449.99,
+      "image": "https://i.imgur.com/inDnpeo.png",
+      "description": "Monitor ultra ancho ideal para multitarea y gaming."
+    },
+    {
+      "id": 30,
+      "title": "HP Victus 15 (2022)",
+      "category": "Laptop gamer",
+      "price": 699.99,
+      "image": "https://i.imgur.com/Uk2d05A.jpeg",
+      "description": "Viene equipada con una CPU Intel Core i5-12500H, una GPU NVIDIA GeForce RTX 3050, 8 GB de RAM y 512 GB de almacenamiento SSD."
+    },
+    {
+      "id": 31,
+      "title": "ASUS TUF F15",
+      "category": "Laptop gamer",
+      "price": 669.99,
+      "image": "https://i.imgur.com/tdK8Va4.jpeg",
+      "description": "Un modelo conocido por su durabilidad y buena relación calidad-precio."
+    },
+    {
+      "id": 32,
+      "title": "Acer Nitro 5",
+      "category": "Laptop gamer",
+      "price": 1492.29,
+      "image": "https://i.imgur.com/a1WXMV4.jpeg",
+      "description": "Incluye un procesador Intel de decimotercera generación, 1 TB de almacenamiento y una tarjeta gráfica RTX 3050."
+    }
+  ]
+}
